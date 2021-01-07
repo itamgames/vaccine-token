@@ -1,0 +1,23 @@
+{
+  "name": "vaccine-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itamgames/vaccine-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itamgames/vaccine-token/issues"
+  },
+  "homepage": "https://github.com/itamgames/vaccine-token#readme"
+}
