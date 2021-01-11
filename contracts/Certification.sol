@@ -26,7 +26,9 @@ contract Certification is ERC721Pausable, Ownable {
     uint256 private vaccineCounter = 1;
     uint256 private tokenCounter = 1;
 
-    constructor(string memory _name, string memory _symbol) ERC721(_name, _symbol) {}
+    constructor(string memory _name, string memory _symbol) ERC721(_name, _symbol) {
+        _pause();
+    }
 
     function createVaccine(string calldata _name, string calldata _organization, string calldata _organizationAddress, string calldata _organizationPhone) onlyOwner public {
         require(existsVaccines[_name] == false, "exists vaccine name.");
